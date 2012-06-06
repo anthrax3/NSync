@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="NSync : It's like ClickOnce but Works™" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>NSync</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/xpaulbettsx/NSync">View on GitHub</a>
+
+          <h1 id="project_title">NSync</h1>
+          <h2 id="project_tagline">It's like ClickOnce but Works™</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/xpaulbettsx/NSync/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/xpaulbettsx/NSync/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>NSync: It's like ClickOnce but Works™</h1>
+
+<h3>What Do We Want?</h3>
+
+<p>Deployment and Updates for Desktop applications blow. ClickOnce almost works,
+but has some glaring bugs that don't seem like they'll ever be fixed. So let's
+own our own future and build a new one.</p>
+
+<p>Windows apps should be as fast and as easy to install and update as apps like
+Google Chrome. From an app developer's side, it should be really
+straightforward to create an installer for my app, and publish updates to it,
+without having to jump through insane hoops</p>
+
+<h6>Installation</h6>
+
+<ul>
+<li>Install is Wizard-Free™ and doesn't look awful (or at least, it should have
+the <em>possibility</em> to not look awful)</li>
+<li>No UAC dialogs, which means....</li>
+<li>...installs to the local user account (i.e. under <code>%LocalAppData%</code>)</li>
+<li>Uninstall gives a chance for the application to clean up (i.e. I get to run
+a chunk of code on uninstall)</li>
+<li>No Reboots, for fuck's sake.</li>
+<li>Can pull down the .NET Framework if need be</li>
+</ul><h6>Updates</h6>
+
+<ul>
+<li>Updates should be able to be applied while the application is running</li>
+<li>At no time should the user ever be forced to stop what he or she is doing</li>
+<li>No Reboots, for fuck's sake.</li>
+<li>The client API should be able to check for updates, receive a (preferably in
+HTML) ChangeLog</li>
+</ul><h6>Production</h6>
+
+<ul>
+<li>Generating an installer given an existing .NET application should be really
+easy, like it is for ClickOnce</li>
+<li>Hosting an update server should be really straightforward as well, and
+should be able to be done using simple HTTP (i.e. I should be able to host
+my installer and update feed via S3)</li>
+<li>Creating an update for my app should be a very simple process that is easily
+automated</li>
+<li>Support for multiple "channels" (a-la Chrome Dev/Beta/Release)</li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">NSync maintained by <a href="https://github.com/xpaulbettsx">xpaulbettsx</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
