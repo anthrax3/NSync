@@ -1,4 +1,4 @@
-# Shimmer: It's like ClickOnce but Works™
+# NSync: It's like ClickOnce but Works™
 
 ### What Do We Want?
 
